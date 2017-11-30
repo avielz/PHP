@@ -1,0 +1,42 @@
+git cmd help
+
+https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository
+
+*******************************************
+CHECKING  who is logged in (good for a shared computer)
+
+git config user.name
+git config user.email
+
+to change the above:
+git config --global user.name [your user name here]
+git config --global user.email [your email address here]
+
+
+********************************************
+TO UPDATE THE REPOSITORY
+
+git add . or add *
+git commit -m "(description)"
+git push -u origin master
+
+******************************************
+
+CLONING AN EXISTING REPOSITORY ON GITHUB TO A WINDOWS FOLDER
+
+On GitHub, navigate to the main page of the repository.
+
+button Clone or download Under the repository name, click Clone or download.
+
+Clone URL buttonIn the Clone with HTTPs section, click  to copy the clone URL for the repository.
+
+Search Git Bash on windows start command and run it - a window similar to a cmd window will open 
+
+in the window Change the current working directory to the location where you want the cloned directory to be made.
+
+Type git clone, and then paste the URL you copied in Step 2.
+(git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+
+Press Enter. Your local clone will be created.
+
+
